@@ -1,0 +1,52 @@
+body{
+    margin:center;
+    padding:0px;
+    background-color:white;
+    display: grid;
+    height: 100vh; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "apple1 amazon1 beats1 adidas1"
+        "adidas2 beats2 amazon2 apple2";
+    justify-items: start;
+    align-items: center;
+    column-gap: 30px
+}
+
+.apple1 {
+    grid-area: apple1;
+}
+
+.apple2 {
+    grid-area: apple2;
+}
+
+.amazon1 {
+    grid-area: amazon1;
+}
+
+.amazon2 {
+    grid-area: amazon2;
+}
+
+.beats1 {
+    grid-area: beats1;
+}
+
+.beats2 {
+    grid-area: beats2;
+}
+
+.adidas1 { 
+    grid-area: adidas1;
+}
+
+.adidas2 { 
+    grid-area: adidas2;
+}
+
+img{
+    width: 75%;
+    height: auto;
+}
